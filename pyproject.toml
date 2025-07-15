@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "redis-streams-python"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <james.bristow@plantandfood.co.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "^6.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
