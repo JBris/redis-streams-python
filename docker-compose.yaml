@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   redis:
-    image: redis:7
+    image: valkey/valkey:7.2
     ports:
       - 6379:6379
     stop_grace_period: 60s
